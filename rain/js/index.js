@@ -7,8 +7,8 @@
     var rain = [];
     var rainCol =["#622569", "#b8a9c9", "#d6d4e0"]
     var rainLength = 3;
-    var rainSize = 5;
-    var raindropProb = 0.001;
+    var rainSize = 10;
+    var raindropProb = 0.01;
     var dx = 0.01;
     var dy = 1;
 
@@ -17,7 +17,7 @@
         for (x=0; x<canvas.width; x++){
             if (Math.random() < raindropProb) {
                 // make the rain!
-                var zoomy = Math.random()*2;
+                var zoomy = Math.random()*5;
                 var rd = {'x':x, 'y':0, 'd':zoomy};
                 rain.push(rd);
             }

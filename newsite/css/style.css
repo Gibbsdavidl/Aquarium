@@ -10,11 +10,10 @@ div.container {
 }
 
 header, footer {
-    padding: 1em;
+    height: 20px;
+    text-align: center;
     color: white;
     background-color: black;
-    clear: left;
-    text-align: center;
 }
 
 nav {
@@ -34,7 +33,7 @@ nav ul a {
 }
 
 article {
-    margin-left: 170px;
+    margin-left: 10px;
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;

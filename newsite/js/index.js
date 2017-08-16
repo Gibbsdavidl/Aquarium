@@ -2,7 +2,7 @@
 (function(){
 
     var canvas = document.getElementById("myCanvas");
-    canvas.style = "position:absolute; left: 50%; width: 400px; margin-left: -200px;";
+    //canvas.style = "position:absolute; left: 50%; width: 400px; margin-left: -200px;";
     var ctx=canvas.getContext("2d");
 
     var rain = [];
