@@ -51,9 +51,21 @@
     }
 
 
+function bugsAction() {
+  // each bug can see if there's a bug near by
+  for(i=0; i<bugs.length; ++i) {
+      r = bugs[i]
+      thisx = r.x;
+      thisy = r.y;
+      // if there's a bug in this region, then course correct to follow
+
+    }
+}
+
     function draw() {        // -- //
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         drawBugs();
+        bugsAction();
         requestAnimationFrame(draw);
     }
 
