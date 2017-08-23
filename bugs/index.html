@@ -2,12 +2,18 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>rain</title>
+    <title>bugs</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <canvas id="myCanvas" width="600" height="500"></canvas>
-  <script src="js/index.js"></script>
+    <canvas id="myCanvas" style="border: none;" width="600" height="500" align="center"></canvas>
+
+       <h2>Controls</h2>
+       <button class="btn" onclick="initBugs()">restart</button>
+       <span id="numbugs" class="sliderSpan"></span>
+       <input type="range" min="0" max="128" value="8" step="8" id="rg" onchange="bugNumControl(3)"/>
+
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
